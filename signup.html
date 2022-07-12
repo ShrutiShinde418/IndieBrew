@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+  </head>
+  <body>
+    <div class="container-fluid mb-5">
+      <div class="container pt-lg-4">
+        <nav class="navbar">
+          <a class="navbar-brand" href="index.html"
+            ><img src="Assets/Logo.svg" alt="IndieBrew"
+          /></a>
+          <div>
+            <ul class="navbar-nav d-flex align-items-md-center flex-row">
+              <li class="nav-item me-md-3">
+                <a
+                  class="btn btn-primary d-flex justify-content-center align-items-center"
+                  href="./index.html"
+                >
+                  <img src="./Assets/Back Arrow.svg" alt="Back Arrow" />
+                </a>
+              </li>
+              <li class="nav-item d-none d-md-block">Back to homepage</li>
+            </ul>
+          </div>
+        </nav>
+        <main class="row gx-lg-0 gx-xl-5 mt-lg-4 mt-md-5 mt-4 pt-2 pt-md-0">
+          <section
+            class="col-lg-6 d-flex flex-column justify-content-center pe-lg-5"
+          >
+            <h1 class="me-lg-0 me-xl-5 pe-xl-5 pe-lg-3 mb-lg-3 mb-4">
+              Create your personalized feed.
+            </h1>
+            <ul class="me-xl-5 pe-xl-5 me-lg-2 pe-lg-2">
+              <li class="mb-4 d-flex">
+                <div class="me-2">🎈</div>
+                <div>
+                  <span>Over 20 resources. </span>With resources ranging from
+                  Reddit to IndieHackers, we've got all your needs covered.
+                </div>
+              </li>
+              <li class="mb-4 d-flex">
+                <div class="me-2">🗞️</div>
+                <div>
+                  <span>Delivered weekly. </span>Every week at exactly Tuesday
+                  12:00 P.M EST &#8212; expect a value-packed digest right in
+                  your email.
+                </div>
+              </li>
+              <li class="mb-4 d-flex">
+                <div class="me-2">💡</div>
+                <div>
+                  <span>Unlimited ideas. </span>With all the ideas you'll be
+                  reading about, what's stopping you from creating a sustainable
+                  startup?
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="col-lg-6 d-flex flex-column pe-lg-5" id="form">
+            <h2 class="mb-4">Create your IndieBrew Account.</h2>
+            <form class="d-flex flex-column pe-lg-3">
+              <div class="mb-3 mb-4 pb-1 mb-lg-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control form-control-lg"
+                  placeholder="john@example.com"
+                  required
+                />
+              </div>
+              <div class="mb-3 mb-4 pb-1 mb-lg-3">
+                <label for="full-name" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  class="form-control form-control-lg"
+                  required
+                  placeholder="John Doe"
+                />
+              </div>
+              <div class="mb-3 mb-4 pb-1 mb-lg-3">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="form-control form-control-lg"
+                  placeholder="At least 8 characters"
+                  required
+                />
+              </div>
+              <div class="mb-4 d-flex me-md-5 me-lg-0">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                  required
+                  class="form-check-input me-2"
+                />
+                <label for="checkbox" class="form-check-label"
+                  >By creating an account on IndieBrew, you agree to the
+                  <a href="#">Terms & Conditions</a>.</label
+                >
+              </div>
+              <button type="submit" class="btn btn-secondary">
+                Create an Account
+              </button>
+            </form>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
