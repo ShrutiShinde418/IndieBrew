@@ -23,8 +23,8 @@
 
 ### Links
 
-- Solution URL: [(https://github.com/ShrutiShinde418/IndieBrew/)](https://github.com/ShrutiShinde418/IndieBrew/)
-- Live Site URL: [(https://shrutishinde418.github.io/IndieBrew/)](https://shrutishinde418.github.io/IndieBrew/)
+- Solution URL: [https://github.com/ShrutiShinde418/IndieBrew/](https://github.com/ShrutiShinde418/IndieBrew/)
+- Live Site URL: [https://shrutishinde418.github.io/IndieBrew/](https://shrutishinde418.github.io/IndieBrew/)
 
 ## My process
 
